@@ -1,0 +1,57 @@
+header{
+  text-align: center;
+  margin: -8px 0px 0px -8px;
+  background:url("https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/19748796_1405267856221006_811086810278365607_n.jpg?oh=98ed07bc82e54fc9856d09c0edbfeda6&oe=5A52C4E2");
+  background-size: cover;
+  height: 660px;
+  width: 100%;
+  color: black;
+}
+h1{
+  color:cyan
+}
+article{
+  font-size: 28px;
+}
+body{
+  background:cyan;
+}
+img{
+  margin: 50px 0px 20px 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+ul{
+  margin: 42px 1px 0px 1px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+li{
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  display: inline;
+}
+a{
+color: white;}
+a:hover {
+  background-color: blue;
+}
+@media (max-width: 360px) {
+  li{
+    display: block;
+    font-size: 20px;
+  }
+  article{
+    font-size:15px ;
+    font-family:cursive;
+  }
+ul{
+  height:-250px;
+  margin: 11px -2px;
+}
+img{
+  margin:20px 0px;
+  width: 150px;
+  height:150px;
+}
